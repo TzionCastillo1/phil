@@ -1,4 +1,4 @@
 #!/bin/bash
 
 
-docker build -t phil -f docker/Dockerfile .
+docker build -t gz:Garden -f docker/Dockerfile .

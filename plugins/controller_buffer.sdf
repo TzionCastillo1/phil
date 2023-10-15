@@ -1,0 +1,8 @@
+<sdf version="1.6">
+    <world name="default">
+        <plugin filename="ControllerBuffer"
+                name="controller_buffer::ControllerBuffer">
+        </plugin>
+    </world>
+</sdf>
+    

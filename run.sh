@@ -20,6 +20,6 @@ docker run -it \
     --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
     --env="XAUTHORITY=$XAUTH" \
     --volume="$HOME/.Xauthority:/root/.Xauthority:rw" \
-    --volume ~/Projects/espdrone/phil:/opt/phil_ws/src \
+    --volume ~/Projects/espdrone/phil:/opt/phil_ws \
     --network host \
-    phil:latest
+    gz:Garden
